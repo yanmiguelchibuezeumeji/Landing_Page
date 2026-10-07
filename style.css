@@ -1,0 +1,153 @@
+body {
+    font-family: Roboto,Arial;
+    display: flex;
+    width: 1400px;
+    background-color: #F0A868;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header,
+.hero-section,
+.footer {
+    background-color: #0A1F24;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height:155px;
+    padding: 25px 50px;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    height: 370px;
+    padding: 0 20px;
+}
+
+.logo {
+    Font-size: 24px;
+    Color: #F9FAF8; 
+}
+
+.hero-main {
+    Font-size: 48px;
+    Color: #F9FAF8;
+    font-weight: 900;
+    font-style: italic;
+    width: 350px;
+}
+
+.hero-secondary {
+    width: 450px;
+}
+
+.hero-secondary,
+.placeholder,
+li {
+    Font-size: 18px;
+    Color: #7fa3a8;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123138;
+    width: 650px;
+    height: 350px;
+
+}
+
+button {
+    background-color: #F0A868;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    background-color: #0A1F24;
+    height: 450px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.info-button {
+    background: none;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #7fa3a8;
+    border-radius: 16px;
+}
+
+.boxes {
+    display: flex;
+    gap: 100px;
+}
+
+.sub-text {
+    width: 200px;
+    text-align: center;
+    padding: 8px 0;
+    color: #7fa3a8;
+}
+
+.Quote {
+    background-color: #0A1F24;
+    Font-size: 36px;
+    color: #F0A868;
+    font-weight: 300;
+    Font-style: italic;
+    height: 350px;
+    text-align: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #123138;
+    color: #7fa3a8;
+    height: 300px;
+}
+
+.in-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #7fa3a8;
+    width: 900px;
+    height: 100px;
+    color: #0A1F24;
+    border-radius: 50px;
+}
+
+.in-div div div {
+    Font-size: 26px;
+    Color: #F9FAF8;
+}
+
+ul {
+   list-style-type: none;
+   display: flex;
+   gap: 40px; 
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    color: #7fa3a8;
+    align-items: center;
+    justify-content: center;
+}
