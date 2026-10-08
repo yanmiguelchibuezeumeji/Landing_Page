@@ -80,9 +80,10 @@ li {
 }
 
 button {
-    background-color: #F0A868;
-    padding: 25px;
+    background-color: #123138;
+    padding: 20px;
     border-radius: 40px;
+    font-size: 18px;
 }
 
 .info-content {
